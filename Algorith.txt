@@ -1,0 +1,13 @@
+FUNCTION palindrome
+VAR
+    FUNCTION checkpalindrom(str)
+BEGIN
+    one = str.length;
+    FOR (i = 0; i < one/2; i++) {
+    if (str[i] !== str[l - 1 - i]) {
+    RETURN false;
+    }
+    }
+    RETURN true;
+        END_FOR
+END
